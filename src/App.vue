@@ -4,6 +4,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <router-link to="/">Home</router-link>
+  <router-link to="/about">About</router-link>
+  <router-link to="/code">Code</router-link>
   <router-view></router-view>
 </template>
 
